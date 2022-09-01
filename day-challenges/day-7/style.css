@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: calc(100vw-"scrollbar-with");
+    height: 100vh;
+    background: rgba(38,64,87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-header{
+    width: 100%;
+    height: 60px;
+    background: rgba(95,152,205);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-header p {
+    color: white;
+    text-align: center;
+    text-justify: center;
+    font-size: 2rem;
+}
+
+.menu-icon {
+
+}
+
+
+
